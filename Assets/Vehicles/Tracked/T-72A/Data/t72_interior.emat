@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.468 0.468 0.468 1
+ GlobalMapsUVTransform MatUVTransform "{5E0CB8091FE72D2F}" {
+  TilingU 5
+  TilingV 5
+ }
+}

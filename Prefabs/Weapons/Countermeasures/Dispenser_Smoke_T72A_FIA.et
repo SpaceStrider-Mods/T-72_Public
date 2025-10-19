@@ -1,0 +1,14 @@
+GenericEntity : "{957C9CE6694FD900}Prefabs/Weapons/Countermeasures/Dispenser_Smoke_T72A.et" {
+ ID "62A8D6FA317E0E04"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{65CF5BEF33035F8F}" {
+     SourceMaterial "t72a_turret"
+     AssignedMaterial "{05B8AA18C0B961B8}Assets/Vehicles/Tracked/T-72A/Data/FIA/t72a_turret_FIA.emat"
+    }
+   }
+  }
+ }
+ coords 68.136 1 1234.331
+}

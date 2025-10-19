@@ -1,0 +1,56 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 25
+   UsedAgainst 7
+   IndirectlyUsedAgainst 1
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#SPC-Magazine_2A46_HEATFS_Name"
+     Description "#SPC-Magazine_2A46_HEATFS_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{65E90564FEF2E38F}" {
+     Weight 0
+     SizeSetupStrategy Manual
+     ItemDimensions 35 35 35
+     ItemVolume 25000
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{65E90564FEF2E3BD}" {
+      CameraDistanceToItem 2.5
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   WeightPerAmmo 19
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellSPC_Cannon_2A46_HEATFS "{65E90564FEF2E3B4}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "#SPC-Magazine_2A46_HEATFS_Name"
+    Description "#SPC-Magazine_2A46_HEATFS_Description"
+    m_sAmmoCaliber "#SPC-AmmunitionID_125x48mm"
+    m_sAmmoType "#SPC-AmmunitionType_HEATFS"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags 22
+   }
+   ItemModel "{D316E62060BC454B}Assets/Weapons/Magazines/Magazine_M242/Magazine_25x137_M242_150rnd_HEIT.xob"
+   MaxAmmo 7
+   AmmoConfig "{53853CBF6E969638}Configs/Weapons/Ammo/Ammo_T72_125mm.conf"
+   AmmoMapping {
+    3 3 3 3 3 3 3
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{AAD3D58CE0E6C60F}Assets/Weapons/Magazines/Magazine_M242/Magazine_25x137_M242_dummy.xob"
+  }
+ }
+ coords 90.212 1 1281.118
+}
