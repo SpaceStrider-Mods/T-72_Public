@@ -1,0 +1,38 @@
+Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5E1830833A2FCA44}" {
+     SourceMaterial "t72a_hull"
+     AssignedMaterial "{1905B648E06141CB}Assets/Vehicles/Tracked/T-72A/Data/FIA/t72a_hull_FIA.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCC9085FC38}" {
+      m_sDefaultOccupantPrefab "{641AD7731E23454B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Crew.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{081CD588901E8C02}UI/Textures/EditorPreviews/Vehicles/Tracked/T72A/T72A_FIA.edds"
+    m_sFaction "FIA"
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "FIA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{DD676DD48265BD15}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret/T72A_Turret_FIA.et"
+    }
+   }
+  }
+ }
+}

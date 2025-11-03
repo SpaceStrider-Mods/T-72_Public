@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0A32ACBE7910368A}Prefabs/Vehicles/Tracked/T-72A/VehParts/Wires/T72_Wire_Rear.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

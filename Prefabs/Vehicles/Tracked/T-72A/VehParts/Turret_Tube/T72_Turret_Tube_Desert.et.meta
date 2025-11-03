@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B5A012CECE4BB50B}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Tube/T72_Turret_Tube_Desert.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

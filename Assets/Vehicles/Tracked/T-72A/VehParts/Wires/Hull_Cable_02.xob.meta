@@ -1,0 +1,52 @@
+MetaFileClass {
+ Name "{48D5D06A19CB5F2F}Assets/Vehicles/Tracked/T-72A/VehParts/Wires/Hull_Cable_02.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportMorphs 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{65CF4DD60680F7A6}" {
+     SourceMaterial "t72a_hull"
+     AssignedMaterial "{E164F772469605D8}Assets/Vehicles/Tracked/T-72A/Data/t72a_hull.emat"
+    }
+   }
+   MeshParams {
+    MeshParam hull_cable_02 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_FV_hull_cable_02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{EDFC3AF8A2483BC4}Common/Materials/Game/Wood/wood_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{65CF4DD61DD126D1}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{65CF4DD61DD12661}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{65CF4DD61DD1263E}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{65CF4DD61DD159C9}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{65CF4DD61DD159EF}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{65CF4DD61DD159B4}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

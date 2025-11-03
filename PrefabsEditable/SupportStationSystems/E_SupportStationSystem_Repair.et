@@ -1,0 +1,46 @@
+GenericEntity : "{1D7174C97DF571DC}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Base.et" {
+ ID "5B2AD5B9801EB74E"
+ components {
+  SCR_ArsenalComponent "{62E49621E34C5C95}" {
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{62E496210FD844DE}" {
+    m_aArsenalItems {
+     SCR_ArsenalItemStandalone "{6555798DDA825EDD}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 20
+      m_eRequiredRank CAPTAIN
+      m_ItemResourceName "{2103601E9C5BDD5B}Prefabs/Weapons/Magazines/2A46/Box_125mm_2A46_APFSDS_15rnd_base.et"
+     }
+     SCR_ArsenalItemStandalone "{6555798DD531C7C8}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 20
+      m_eRequiredRank CAPTAIN
+      m_ItemResourceName "{8F5AF18271B71025}Prefabs/Weapons/Magazines/2A46/Box_125mm_2A46_HE_20rnd_base.et"
+     }
+     SCR_ArsenalItemStandalone "{65E905677012AFF6}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 20
+      m_eRequiredRank CAPTAIN
+      m_ItemResourceName "{C4F3D7FF844336D7}Prefabs/Weapons/Magazines/2A46/Box_125mm_2A46_APFSDS_15rnd_T72B.et"
+     }
+     SCR_ArsenalItemStandalone "{65E9056773C255CA}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 20
+      m_eRequiredRank CAPTAIN
+      m_ItemResourceName "{E466C743E9B61DD0}Prefabs/Weapons/Magazines/2A46/Box_125mm_2A46_HE_22rnd_base.et"
+     }
+     SCR_ArsenalItemStandalone "{65E90567723B140A}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 20
+      m_eRequiredRank CAPTAIN
+      m_ItemResourceName "{3D336436F7F3E0A1}Prefabs/Weapons/Magazines/2A46/Box_125mm_2A46_HEAT_7rnd_base.et"
+     }
+    }
+   }
+  }
+ }
+}

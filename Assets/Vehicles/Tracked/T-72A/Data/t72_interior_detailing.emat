@@ -1,0 +1,5 @@
+MatPBRBasic : "{BD606E332DF84E77}Assets/Vehicles/Tracked/T-72A/Data/t72_interior.emat" {
+ Color 0.468 0.468 0.468 1
+ BCRMap 
+ NMOMap 
+}

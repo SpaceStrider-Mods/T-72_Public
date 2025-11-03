@@ -1,0 +1,8 @@
+GenericEntity : "{1CC8DD9D7F92ED2A}Prefabs/Props/Core/VehiclePart_Base.et" {
+ ID "51F6D6DE0C8B22AD"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{EEB2A898B88F61D1}Assets/Vehicles/Tracked/T-72A/VehParts/t72a_cable_front.xob"
+  }
+ }
+}

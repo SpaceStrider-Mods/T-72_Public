@@ -1,0 +1,200 @@
+GenericEntity : "{2BAC695816860421}Prefabs/Weapons/Core/Armament_Dispenser_Smoke.et" {
+ ID "62A8D6FA317E0E04"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{C948B6C1A1F28CDF}Assets/Vehicles/Tracked/T-72A/VehParts/Smoke/T72A_Smokes.xob"
+  }
+  WCS_Armament_SmokeDispenserComponent "{62DB0A13234C2E8C}" {
+   m_Projectile "{7EB2747E5DB280BA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_T72A.et"
+   m_IdlePosition PointInfo "{65CF4DD2E5CAFC99}" {
+    Offset -1.0819 1.7024 0.3195
+    Angles 45 0 0
+   }
+   m_FirePosition PointInfo "{65CF4DD2E5CAFC96}" {
+    Offset -1.0819 1.9006 0.5176
+    Angles 45 0 0
+   }
+   m_vDispersion 4 4 4
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+  }
+  WCS_Armament_SmokeDispenserComponent "{65CF4DD1A831213F}" {
+   m_Projectile "{7EB2747E5DB280BA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_T72A.et"
+   m_IdlePosition PointInfo "{65CF4DD12CF97E20}" {
+    Offset -0.8713 1.6146 0.594
+    Angles 45 0 0
+   }
+   m_FirePosition PointInfo "{65CF4DD15EA6DA7E}" {
+    Offset -0.8713 1.801 0.7804
+    Angles 45 0 0
+   }
+   m_vDispersion 4 4 4
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 4
+  }
+  WCS_Armament_SmokeDispenserComponent "{65CF4DD1B2E1F613}" {
+   m_Projectile "{7EB2747E5DB280BA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_T72A.et"
+   m_IdlePosition PointInfo "{65CF4DD12FB9E172}" {
+    Offset -0.7497 1.6055 0.693
+    Angles 45 0 0
+   }
+   m_FirePosition PointInfo "{65CF4DD1578DC801}" {
+    Offset -0.7497 1.7747 0.8622
+    Angles 45 0 0
+   }
+   m_vDispersion 4 4 4
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 5
+  }
+  WCS_Armament_SmokeDispenserComponent "{65CF4DD1B4FE9F03}" {
+   m_Projectile "{7EB2747E5DB280BA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_T72A.et"
+   m_IdlePosition PointInfo "{65CF4DD1215F41A5}" {
+    Offset -0.6213 1.6097 0.7714
+    Angles 45 0 0
+   }
+   m_FirePosition PointInfo "{65CF4DD141483BB5}" {
+    Offset -0.6213 1.7608 0.9225
+    Angles 45 0 0
+   }
+   m_vDispersion 4 4 4
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 6
+  }
+  WCS_Armament_SmokeDispenserComponent "{65CF4DD1B6DAEA63}" {
+   m_Projectile "{7EB2747E5DB280BA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_T72A.et"
+   m_IdlePosition PointInfo "{65CF4DD1200595D1}" {
+    Offset -0.4925 1.5991 0.7855
+    Angles 45 0 0
+   }
+   m_FirePosition PointInfo "{65CF4DD146B592D1}" {
+    Offset -0.4925 1.7723 0.9587
+    Angles 45 0 0
+   }
+   m_vDispersion 4 4 4
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 7
+  }
+  WCS_Armament_SmokeDispenserComponent "{65CF4DD1C136A4BF}" {
+   m_Projectile "{7EB2747E5DB280BA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_T72A.et"
+   m_IdlePosition PointInfo "{65CF4DD123309C99}" {
+    Offset 0.8422 1.7076 0.5626
+    Angles 45 0 0
+   }
+   m_FirePosition PointInfo "{65CF4DD177A9632D}" {
+    Offset 0.8422 1.8875 0.7426
+    Angles 45 0 0
+   }
+   m_vDispersion 4 4 4
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 8
+  }
+  WCS_Armament_SmokeDispenserComponent "{65CF4DD1C287DCE5}" {
+   m_Projectile "{7EB2747E5DB280BA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_T72A.et"
+   m_IdlePosition PointInfo "{65CF4DD1220BBF32}" {
+    Offset 0.9628 1.6492 0.5376
+    Angles 45 0 0
+   }
+   m_FirePosition PointInfo "{65CF4DD098240A6D}" {
+    Offset 0.9628 1.7941 0.6825
+    Angles 45 0 0
+   }
+   m_vDispersion 4 4 4
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 9
+  }
+  WCS_Armament_SmokeDispenserComponent "{65CF4DD1C3411C29}" {
+   m_Projectile "{7EB2747E5DB280BA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_T72A.et"
+   m_IdlePosition PointInfo "{65CF4DD1250CA11E}" {
+    Offset 1.0687 1.6538 0.4523
+    Angles 45 0 0
+   }
+   m_FirePosition PointInfo "{65CF4DD096DD208B}" {
+    Offset 1.0687 1.817 0.6155
+    Angles 45 0 0
+   }
+   m_vDispersion 4 4 4
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 10
+  }
+  WCS_Armament_SmokeDispenserComponent "{65CF4DD1CD2EE655}" {
+   m_Projectile "{7EB2747E5DB280BA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_T72A.et"
+   m_IdlePosition PointInfo "{65CF4DD1240D06CE}" {
+    Offset 1.1483 1.6484 0.3075
+    Angles 45 0 0
+   }
+   m_FirePosition PointInfo "{65CF4DD0BC682324}" {
+    Offset 1.1483 1.8062 0.4653
+    Angles 45 0 0
+   }
+   m_vDispersion 4 4 4
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 11
+  }
+  WCS_Armament_SmokeDispenserComponent "{65CF4DD1CFCDDADA}" {
+   m_Projectile "{7EB2747E5DB280BA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_T72A.et"
+   m_IdlePosition PointInfo "{65CF4DD127E1C4A4}" {
+    Offset 1.1299 1.7447 0.2112
+    Angles 45 0 0
+   }
+   m_FirePosition PointInfo "{65CF4DD0B7119E08}" {
+    Offset 1.1299 1.9096 0.3761
+    Angles 45 0 0
+   }
+   m_vDispersion 4 4 4
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 12
+  }
+  WCS_Armament_SmokeDispenserComponent "{65CF4DD2E5CAFC84}" {
+   m_Projectile "{7EB2747E5DB280BA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_T72A.et"
+   m_IdlePosition PointInfo "{65CF4DD2E5CAFC86}" {
+    Offset -1.0857 1.6019 0.4199
+    Angles 45 0 0
+   }
+   m_FirePosition PointInfo "{65CF4DD2E5CAFCB8}" {
+    Offset -1.0857 1.7899 0.6079
+    Angles 45 0 0
+   }
+   m_vDispersion 4 4 4
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 1
+  }
+  WCS_Armament_SmokeDispenserComponent "{65CF4DD2E5CAFC8C}" {
+   m_Projectile "{7EB2747E5DB280BA}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_T72A.et"
+   m_IdlePosition PointInfo "{65CF4DD2E5CAFC8F}" {
+    Offset -0.9759 1.5705 0.5004
+    Angles 45 0 0
+   }
+   m_FirePosition PointInfo "{65CF4DD2E5CAFC81}" {
+    Offset -0.9759 1.8201 0.75
+    Angles 45 0 0
+   }
+   m_vDispersion 4 4 4
+   m_iNumProjectiles 1
+   m_iFireIntervalMS 1500
+   m_iShakeAmount 1
+   m_iId 2
+  }
+ }
+ coords 84.316 1 1292.078
+}
