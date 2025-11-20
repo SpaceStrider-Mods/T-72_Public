@@ -1,0 +1,14 @@
+GenericEntity : "{E29C696959BF15A5}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Tube/T72_Turret_Tube.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{65CF5BEE95F1BAC4}" {
+     SourceMaterial "t72a_turret"
+     AssignedMaterial "{3385D3EFA87E67D5}Assets/Vehicles/Tracked/T-72A/Data/Desert/t72a_turret_desert.emat"
+    }
+   }
+  }
+ }
+ coords 66.456 1 1240.872
+}

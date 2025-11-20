@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6AE28BE13E67C0A7}Assets/Vehicles/Tracked/T-72A/Data/t72_interior_detailing.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

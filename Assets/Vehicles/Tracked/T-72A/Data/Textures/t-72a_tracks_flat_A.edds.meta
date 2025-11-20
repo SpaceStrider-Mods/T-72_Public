@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5E80426E5AF03452}Assets/Vehicles/Tracked/T90A/Data/Textures/T90A_tracks_flat_A.edds"
+ Configurations {
+  TGAResourceClass PC {
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass XBOX_SERIES : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass HEADLESS : PC {
+  }
+  TGAResourceClass PS5 : PC {
+  }
+ }
+}

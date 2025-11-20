@@ -1,0 +1,14 @@
+GenericEntity : "{4A30874E3A255689}Prefabs/Weapons/HeavyWeapons/2A46/Cannon_2A466_T72A_HE.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineWell MagazineWellSPC_Cannon_2A46_HEATFS "{65B541554D33E346}" {
+     }
+     MagazineTemplate "{3D336436F7F3E0A1}Prefabs/Weapons/Magazines/2A46/Box_125mm_2A46_HEAT_7rnd_base.et"
+    }
+   }
+  }
+ }
+}

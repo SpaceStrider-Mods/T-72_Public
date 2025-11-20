@@ -1,0 +1,9 @@
+GenericEntity : "{9F610A0BF28D212D}Prefabs/Vehicles/Tracked/T-72A/VehParts/Turret_Toolboxes/T72_Turret_Toolbox_01.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{C3E731237EE55663}Assets/Vehicles/Tracked/T-72A/VehParts/ToolBoxes/T72_Turret_Toolbox_02.xob"
+  }
+ }
+ coords 64.998 1 1202.13
+}

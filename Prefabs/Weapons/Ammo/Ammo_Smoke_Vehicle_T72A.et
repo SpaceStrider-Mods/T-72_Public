@@ -1,0 +1,25 @@
+Projectile : "{65D11337FA01A1B2}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_3D17.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  TimerTriggerComponent "{62EC37ED708C1AAB}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{62EC37ED7DB11E53}" {
+     EffectPrefab "{AFB36B179409FC06}Prefabs/Weapons/Warheads/3D17/Warhead_Smoke_902B.et"
+     ParticleEffect ""
+    }
+   }
+   TIMER 15
+  }
+  ShellMoveComponent "{20FB66C5FA209A29}" {
+   InitSpeed 45
+   TimeToLive 15
+   ProjectileEffects {
+    ExplosionEffect "{5184D7800EFDF1D7}" {
+     EffectPrefab "{AFB36B179409FC06}Prefabs/Weapons/Warheads/3D17/Warhead_Smoke_902B.et"
+     ParticleEffect ""
+    }
+   }
+  }
+ }
+ coords 80.27 1 1292.894
+}

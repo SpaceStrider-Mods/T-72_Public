@@ -1,0 +1,20 @@
+GenericEntity : "{8F5AF18271B71025}Prefabs/Weapons/Magazines/2A46/Box_125mm_2A46_HE_20rnd_base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#SPC-Magazine_2A46_HE_22_Name"
+     Description "#SPC-Magazine_2A46_HEAT_22_Description"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MaxAmmo 22
+   AmmoMapping + {
+    0 0
+   }
+  }
+ }
+ coords 91.707 1 1281.244
+}

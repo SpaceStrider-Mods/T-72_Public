@@ -1,0 +1,27 @@
+MetaFileClass {
+ Name "{961C70F780818E59}Assets/Vehicles/Tracked/T90A/Data/Textures/T90A_tracks_flat_L_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

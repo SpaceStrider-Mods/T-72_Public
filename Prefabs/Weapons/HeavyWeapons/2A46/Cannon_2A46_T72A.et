@@ -1,0 +1,135 @@
+GenericEntity : "{EFC76BFD1984F44D}Prefabs/Weapons/Core/Cannon_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{218D4E6555DD7ECA}Sounds/Weapons/HeavyWeapons/2A46/Weapons_HeavyWeapons_2A46_Shot.acp" "{8955A571EC4758FB}Sounds/Weapons/HeavyWeapons/KPVT/Weapons_HeavyWeapons_KPV_Handling.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{9F6E61927AB5FD63}Assets/Weapons/HeavyWeapons/2A46/2A46_base.xob"
+  }
+  RigidBody "{60563208819DEF99}" {
+   Mass 800
+   AngularSleepingThreashold 1
+   SimState Collision
+   ModelGeometry 1
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "#AR-Weapon_MachineGun_Name"
+     Description "#AR-Weapon_MachineGun_Name"
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{65B54155722C2BE7}" {
+     }
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5D667A653DFFE3D2}" {
+      CameraPreset Left
+      CameraDistanceToItem 3
+      PreviewModel "{9F6E61927AB5FD63}Assets/Weapons/HeavyWeapons/2A46/2A46_base.xob"
+     }
+    }
+   }
+  }
+  SCR_WeaponBlastComponent "{65B5415646C72067}" {
+   m_aBlastEffects {
+    SCR_WeaponBlastEffect "{65B54156BD4FE583}" : "{F2479EB25365462C}Prefabs/Weapons/Core/Damage/WeaponBlast/WeaponBlastEffect_Damage.conf" {
+    }
+    SCR_WeaponBlastEffect "{65B54156BC3D5B29}" : "{32657999002110ED}Prefabs/Weapons/Core/Damage/WeaponBlast/WeaponBlastEffect_Concussion.conf" {
+    }
+   }
+   m_fBlastLength 25
+   m_bCanBlastRicochet 0
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{B7D570C9A8BBF129}Particles/Weapons/GroundEffect_Smoke_Cannon.ptc"
+       EffectPosition EntitySlotInfo "{513A938439231378}" {
+        PivotID "barrel_muzzle"
+        Angles 0 0 0
+       }
+       ResetOnFire 0
+      }
+      SCR_MuzzleEffectComponent "{65F971F7ECB185CC}" {
+       ParticleEffect "{80F872E85C003706}Particles/Weapons/Smoke_120mm_GasReturn.ptc"
+       EffectPosition EntitySlotInfo Muzzle {
+        PivotID "barrel_muzzle"
+       }
+       ResetOnFire 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{39EA657B13F1E3D6}Particles/Weapons/Muzzle_120mm_Cannon.ptc"
+       ResetOnFire 0
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "barrel_muzzle"
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 8.5
+      }
+     }
+     MagazineWell MagazineWellSPC_Cannon_2A46_APFSDS "{65B541554D33E346}" {
+     }
+     BulletInitSpeedCoef 1.1
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{65B54155B87CFBEF}" {
+       LinearData RecoilData "{5902CABACF883276}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_bShowCaliber 1
+      m_sCaliber "#SPC-AmmunitionID_125x48mm"
+     }
+     AllowWeaponDeployment 0
+     MagazineTemplate "{2103601E9C5BDD5B}Prefabs/Weapons/Magazines/2A46/Box_125mm_2A46_APFSDS_15rnd_base.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{5C41727F96285D4E}Assets/Weapons/MachineGuns/workspaces/M249.agr"
+     AnimInstance "{E2DF83DEEE9355A1}Assets/Weapons/HeavyWeapons/workspaces/Cannon_weapon.asi"
+     AlwaysActive 1
+     BindWithInjection 1
+     AnimCommandsToBind {
+      "" "" ""
+     }
+    }
+   }
+   obstructionTestCharacterOffset 0 0 0
+   obstructionTestAddedLength 0
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#SPC-Weapon_2A46_Name"
+    m_bShowWeaponName 1
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   Enabled 1
+  }
+  RplComponent "{E052E71DCB007AF2}" {
+   "Parent Node From Parent Entity" 1
+  }
+ }
+ coords 84.5 1 1281.094
+}

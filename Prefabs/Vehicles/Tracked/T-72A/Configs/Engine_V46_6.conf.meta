@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C44FF35B540EA06F}Prefabs/Vehicles/Tracked/T-72A/Configs/Engine_V46_6.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EDAA1D04E8C67352}Prefabs/Weapons/HeavyWeapons/2A46/Cannon_2A46_T72B.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
